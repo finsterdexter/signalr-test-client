@@ -1,0 +1,29 @@
+{
+  "name": "signalr-test-client",
+  "version": "1.0.0",
+  "author": "Finster <finster@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@aspnet/signalr": "^1.1.4",
+    "css-loader": "^3.0.0",
+    "milligram": "^1.3.0",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development --open",
+    "start": "webpack -p && node server.js"
+  },
+  "devDependencies": {
+    "@types/signalr": "^2.2.35",
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.5.2",
+    "ts-loader": "^6.0.3"
+  }
+}
